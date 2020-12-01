@@ -6,4 +6,4 @@ services:
     environment:
       - TZ=Europe/Amsterdam
     ports:
-      - "80:80"
+      - "80:8888"
