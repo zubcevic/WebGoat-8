@@ -3,6 +3,8 @@ version: '3'
 services:
   web:
     image: webgoat/goatandwolf:latest
+    environment:
+      - TZ=Europe/Amsterdam
     ports:
       - "8080:8080"
       - "9090":9090"
